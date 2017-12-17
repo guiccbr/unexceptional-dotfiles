@@ -1,2 +1,3 @@
-# unexceptional-dotfiles
-My unexceptional dotflies
+# Unexceptional Dotfiles
+
+My unexceptional dotfiles
