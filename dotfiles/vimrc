@@ -4,6 +4,28 @@ syntax enable
 filetype plugin indent on
 
 set number
-set expandtab
 set tabstop=4
+set softtabstop=4
 set shiftwidth=4
+set expandtab
+set autoindent
+set clipboard=unnamedplus
+set laststatus=2
+
+let mapleader=","
+
+autocmd Filetype htmldjango setlocal ts=2 sts=2 sw=2 expandtab
+autocmd Filetype javascript.jsx setlocal ts=2 sts=2 sw=2 expandtab
+
+set background=dark
+colorscheme solarized
+
+set spell spelllang=en_us,pt
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
+let g:lightline = {
+      \ 'colorscheme': 'solarized',
+      \ }
+

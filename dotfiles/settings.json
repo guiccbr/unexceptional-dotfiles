@@ -1,0 +1,32 @@
+{
+    "editor.tabSize": 2,
+    "editor.fontSize": 13,
+    "editor.autoIndent": false,
+    "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+    "editor.minimap.enabled": false,
+    "eslint.packageManager": "yarn",
+    "eslint.run": "onSave",
+    "editor.formatOnPaste": true,
+    "[git-commit]": {
+        "editor.rulers": [
+            72
+        ],
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 80
+    },
+    "[markdown]": {
+        "editor.rulers": [
+            72
+        ],
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 80
+    },
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": -1,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "prettier.eslintIntegration": true,
+    "vim.useSystemClipboard": true,
+    "window.title": "${activeEditorMedium}",
+}

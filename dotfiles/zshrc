@@ -99,3 +99,12 @@ bindkey -v
 
 # Set default editor as vim
 export EDITOR=vim
+
+# Pbcopy and Pbpaste
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
+
+eval $(dircolors /home/guicc/.dir_colors/dircolors)
